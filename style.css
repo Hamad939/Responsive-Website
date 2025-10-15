@@ -289,6 +289,15 @@ textarea {
   }
   .form {
     width: 50%;
+    gap: 8px;
+  }
+  input {
+    width: 80%;
+    border: 1px solid rgb(164, 164, 164);
+  }
+  textarea {
+    width: 80%;
+    border: 1px solid rgb(164, 164, 164);
   }
   .footer {
     height: max-content;
@@ -306,7 +315,8 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 22px;
+
+    padding: 22px 12px 22px 12px;
   }
 
   .logos {
