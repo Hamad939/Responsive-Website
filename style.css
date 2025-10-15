@@ -180,7 +180,7 @@ textarea {
 }
 .row2 img {
   margin-top: 16px;
-  flex: 1;
+  flex: 1 0 30%;
 }
 .imgs {
   margin-top: 30px;
@@ -288,15 +288,15 @@ textarea {
     transition: 0.2s;
   }
   .form {
-    width: 50%;
+    width: 80%;
     gap: 8px;
   }
   input {
-    width: 80%;
+    width: 70%;
     border: 1px solid rgb(164, 164, 164);
   }
   textarea {
-    width: 80%;
+    width: 70%;
     border: 1px solid rgb(164, 164, 164);
   }
   .footer {
