@@ -228,13 +228,15 @@ textarea {
 
   .header {
     width: 100%;
-  }
+    display: flex;
+    align-items: center;
 
   .main img {
     height: 250px;
     object-fit: fill;
   }
   .logo img {
+
   }
   .teams {
     display: flex;
@@ -248,7 +250,7 @@ textarea {
   }
   .mobile {
     display: block;
-    margin: 0px 8px 8px 0px;
+    margin: 0px 8px 16px 0px;
   }
 
   .table {
