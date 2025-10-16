@@ -15,7 +15,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 22px;
+  padding: 16px 16px 16px 8px;
   background-color: #1e71a5;
   color: white;
   position: sticky;
@@ -230,14 +230,12 @@ textarea {
     width: 100%;
     display: flex;
     align-items: center;
-
+  }
   .main img {
-    height: 250px;
+    height: 200px;
     object-fit: fill;
   }
-  .logo img {
 
-  }
   .teams {
     display: flex;
     flex-direction: column;
